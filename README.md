@@ -20,7 +20,7 @@ https://material.io/resources/icons/?search=edit&icon=edit&style=baseline
   “Great question, I’ll find that out for you!”
 
 
-### Align symbols to line
+### Align symbols to line [StackExchange](https://gis.stackexchange.com/questions/24260/how-to-add-direction-and-distance-to-attribute-table)
 * > Explode Lines in QGIS
 * > Caluclate Rotation with following expression
 * > Expression for field calculator
