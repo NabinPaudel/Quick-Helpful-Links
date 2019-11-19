@@ -28,4 +28,4 @@ https://material.io/resources/icons/?search=edit&icon=edit&style=baseline
 * > Rotate Symbol using above rotation parmeter.  
 
 
-### create own NTRIP server using [SNIP] (https://www.use-snip.com/kb/)
+### create own NTRIP server using [SNIP]( https://www.use-snip.com/kb/ )
