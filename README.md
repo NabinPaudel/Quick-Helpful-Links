@@ -29,3 +29,4 @@ https://material.io/resources/icons/?search=edit&icon=edit&style=baseline
 
 
 ### create own NTRIP server using [SNIP]( https://www.use-snip.com/kb/ )
+* VRS Now Base [Station Map] ( https://vrsnow.co.nz/Map/SensorMap.aspx )
