@@ -30,3 +30,11 @@ https://material.io/resources/icons/?search=edit&icon=edit&style=baseline
 
 ### create own NTRIP server using [SNIP]( https://www.use-snip.com/kb/ )
 * VRS Now Base [Station Map]( https://vrsnow.co.nz/Map/SensorMap.aspx )
+
+
+### PostgreSQL schema column detials [stackexchange] ()
+SELECT *
+  FROM information_schema.columns
+ WHERE table_schema = 'your_schema'
+   AND table_name   = 'your_table'
+     ;
