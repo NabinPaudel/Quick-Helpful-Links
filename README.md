@@ -32,7 +32,7 @@ https://material.io/resources/icons/?search=edit&icon=edit&style=baseline
 * VRS Now Base [Station Map]( https://vrsnow.co.nz/Map/SensorMap.aspx )
 
 
-### PostgreSQL schema column detials [stackexchange] ()
+### PostgreSQL schema column detials
 SELECT *
   FROM information_schema.columns
  WHERE table_schema = 'your_schema'
