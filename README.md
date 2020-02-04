@@ -48,3 +48,14 @@ SELECT *
 INSERT INTO public.mergeddataset( gis_id, compkey, servstat, unittype, pipetype, l4, l3)
 	select gis_id, compkey, servstat, unittype, pipetype, 'PIPING', 'WS' from rws_pipe;
 ```
+
+### PostgreSQL interpolate centroid
+
+````
+drop table mergeddataset;
+create table mergeddataset(id serial, gis_id varchar, compkey varchar, servstat varchar, unittype varchar, pipetype varchar, l4 varchar, l3 varchar, geom geometry(POINT,2193));
+INSERT INTO public.mergeddataset( gis_id, compkey, servstat, unittype, pipetype, l4, l3, geom)
+	select gis_id, compkey, servstat, unittype, pipetype, 'PIPING' as l4, 'WS' as l3, ST_LineInterpolatePoint(ST_LineMerge(geom), 0.50) from rws_pipe;
+	select gis_id, compkey, servstat, unittype, pipetype, 'PIPING' as l4, 'WW' as l3, ST_LineInterpolatePoint(ST_LineMerge(geom), 0.50) as geom from rww_pipe;
+	
+```
