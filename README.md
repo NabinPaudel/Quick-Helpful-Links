@@ -24,7 +24,9 @@ https://material.io/resources/icons/?search=edit&icon=edit&style=baseline
 * > Explode Lines in QGIS
 * > Caluclate Rotation with following expression
 * > Expression for field calculator
+````
 (atan((xat(-1)-xat(0))/(yat(-1)-yat(0)))) * 180/3.14159 + (180 *(((yat(-1)-yat(0)) < 0) + (((xat(-1)-xat(0)) < 0 AND (yat(-1) - yat(0)) >0)*2)))
+````
 * > Rotate Symbol using above rotation parmeter.  
 
 
