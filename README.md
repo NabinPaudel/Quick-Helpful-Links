@@ -32,19 +32,17 @@ https://material.io/resources/icons/?search=edit&icon=edit&style=baseline
 * VRS Now Base [Station Map]( https://vrsnow.co.nz/Map/SensorMap.aspx )
 
 ### PostgreSQL schema column detials
-''''
+```
 SELECT *
   FROM information_schema.columns
  WHERE table_schema = 'your_schema'
    AND table_name   = 'your_table'
      ;
-     
-     ''''
+```
      
      
 ### PostgreSQL Multiple merge
-
-''''
+```
 INSERT INTO public.mergeddataset( gis_id, compkey, servstat, unittype, pipetype, l4, l3)
 	select gis_id, compkey, servstat, unittype, pipetype, 'PIPING', 'WS' from rws_pipe;
- ''''
+```
