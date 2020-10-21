@@ -36,5 +36,5 @@ https://material.io/resources/icons/?search=edit&icon=edit&style=baseline
 
 ### ArcGIS Rest Service export
 
-Online tool [Exporter] (https://cartong.github.io/arcgis-rest-service-export/)
+* Online tool [Exporter]( https://cartong.github.io/arcgis-rest-service-export/ )
 
